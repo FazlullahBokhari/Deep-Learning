@@ -458,3 +458,157 @@ Name: y, dtype: int64:
 [2022-02-27 16:53:43,089: INFO: or]: <<<<< done training for OR  gate <<<<<
 
 :
+[2022-02-27 16:58:23,434: INFO: and]: >>>>> starting training for AND  gate >>>>>:
+[2022-02-27 16:58:23,449: INFO: and]: This is the raw dataset:    x1  x2  y
+0   0   0  0
+1   0   1  0
+2   1   0  0
+3   1   1  1:
+[2022-02-27 16:58:23,449: INFO: all_utils]:  preparing the data for training :
+[2022-02-27 16:58:23,449: INFO: model]: initial weights before training : 
+[ 2.73094822e-04 -1.22476696e-04  1.98602593e-05]:
+[2022-02-27 16:58:23,449: INFO: model]: X with bias: 
+[[ 0.  0. -1.]
+ [ 0.  1. -1.]
+ [ 1.  0. -1.]
+ [ 1.  1. -1.]]:
+[2022-02-27 16:58:23,449: INFO: model]: for epoch >> 0:
+[2022-02-27 16:58:23,449: INFO: model]: ------------------------------:
+[2022-02-27 16:58:23,449: INFO: model]: predicted value after forward pass: 
+[0 0 1 1]:
+[2022-02-27 16:58:23,449: INFO: model]: error: 
+0    0
+1    0
+2   -1
+3    0
+Name: y, dtype: int64:
+[2022-02-27 16:58:23,449: INFO: model]: updated weights after epoch: 1/10: 
+[-2.99726905e-01 -1.22476696e-04  3.00019860e-01]:
+[2022-02-27 16:58:23,449: INFO: model]: ####################:
+[2022-02-27 16:58:23,449: INFO: model]: for epoch >> 1:
+[2022-02-27 16:58:23,449: INFO: model]: ------------------------------:
+[2022-02-27 16:58:23,449: INFO: model]: predicted value after forward pass: 
+[0 0 0 0]:
+[2022-02-27 16:58:23,449: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    1
+Name: y, dtype: int64:
+[2022-02-27 16:58:23,449: INFO: model]: updated weights after epoch: 2/10: 
+[2.73094822e-04 2.99877523e-01 1.98602593e-05]:
+[2022-02-27 16:58:23,449: INFO: model]: ####################:
+[2022-02-27 16:58:23,449: INFO: model]: for epoch >> 2:
+[2022-02-27 16:58:23,449: INFO: model]: ------------------------------:
+[2022-02-27 16:58:23,449: INFO: model]: predicted value after forward pass: 
+[0 1 1 1]:
+[2022-02-27 16:58:23,449: INFO: model]: error: 
+0    0
+1   -1
+2   -1
+3    0
+Name: y, dtype: int64:
+[2022-02-27 16:58:23,449: INFO: model]: updated weights after epoch: 3/10: 
+[-2.99726905e-01 -1.22476696e-04  6.00019860e-01]:
+[2022-02-27 16:58:23,449: INFO: model]: ####################:
+[2022-02-27 16:58:23,449: INFO: model]: for epoch >> 3:
+[2022-02-27 16:58:23,449: INFO: model]: ------------------------------:
+[2022-02-27 16:58:23,449: INFO: model]: predicted value after forward pass: 
+[0 0 0 0]:
+[2022-02-27 16:58:23,449: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    1
+Name: y, dtype: int64:
+[2022-02-27 16:58:23,449: INFO: model]: updated weights after epoch: 4/10: 
+[2.73094822e-04 2.99877523e-01 3.00019860e-01]:
+[2022-02-27 16:58:23,449: INFO: model]: ####################:
+[2022-02-27 16:58:23,449: INFO: model]: for epoch >> 4:
+[2022-02-27 16:58:23,449: INFO: model]: ------------------------------:
+[2022-02-27 16:58:23,449: INFO: model]: predicted value after forward pass: 
+[0 0 0 1]:
+[2022-02-27 16:58:23,449: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2022-02-27 16:58:23,449: INFO: model]: updated weights after epoch: 5/10: 
+[2.73094822e-04 2.99877523e-01 3.00019860e-01]:
+[2022-02-27 16:58:23,449: INFO: model]: ####################:
+[2022-02-27 16:58:23,449: INFO: model]: for epoch >> 5:
+[2022-02-27 16:58:23,449: INFO: model]: ------------------------------:
+[2022-02-27 16:58:23,449: INFO: model]: predicted value after forward pass: 
+[0 0 0 1]:
+[2022-02-27 16:58:23,449: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2022-02-27 16:58:23,449: INFO: model]: updated weights after epoch: 6/10: 
+[2.73094822e-04 2.99877523e-01 3.00019860e-01]:
+[2022-02-27 16:58:23,449: INFO: model]: ####################:
+[2022-02-27 16:58:23,449: INFO: model]: for epoch >> 6:
+[2022-02-27 16:58:23,449: INFO: model]: ------------------------------:
+[2022-02-27 16:58:23,449: INFO: model]: predicted value after forward pass: 
+[0 0 0 1]:
+[2022-02-27 16:58:23,449: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2022-02-27 16:58:23,449: INFO: model]: updated weights after epoch: 7/10: 
+[2.73094822e-04 2.99877523e-01 3.00019860e-01]:
+[2022-02-27 16:58:23,449: INFO: model]: ####################:
+[2022-02-27 16:58:23,449: INFO: model]: for epoch >> 7:
+[2022-02-27 16:58:23,449: INFO: model]: ------------------------------:
+[2022-02-27 16:58:23,449: INFO: model]: predicted value after forward pass: 
+[0 0 0 1]:
+[2022-02-27 16:58:23,449: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2022-02-27 16:58:23,449: INFO: model]: updated weights after epoch: 8/10: 
+[2.73094822e-04 2.99877523e-01 3.00019860e-01]:
+[2022-02-27 16:58:23,449: INFO: model]: ####################:
+[2022-02-27 16:58:23,449: INFO: model]: for epoch >> 8:
+[2022-02-27 16:58:23,449: INFO: model]: ------------------------------:
+[2022-02-27 16:58:23,449: INFO: model]: predicted value after forward pass: 
+[0 0 0 1]:
+[2022-02-27 16:58:23,449: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2022-02-27 16:58:23,465: INFO: model]: updated weights after epoch: 9/10: 
+[2.73094822e-04 2.99877523e-01 3.00019860e-01]:
+[2022-02-27 16:58:23,465: INFO: model]: ####################:
+[2022-02-27 16:58:23,465: INFO: model]: for epoch >> 9:
+[2022-02-27 16:58:23,465: INFO: model]: ------------------------------:
+[2022-02-27 16:58:23,465: INFO: model]: predicted value after forward pass: 
+[0 0 0 1]:
+[2022-02-27 16:58:23,465: INFO: model]: error: 
+0    0
+1    0
+2    0
+3    0
+Name: y, dtype: int64:
+[2022-02-27 16:58:23,465: INFO: model]: updated weights after epoch: 10/10: 
+[2.73094822e-04 2.99877523e-01 3.00019860e-01]:
+[2022-02-27 16:58:23,465: INFO: model]: ####################:
+[2022-02-27 16:58:23,465: INFO: model]: total loss: 0
+:
+[2022-02-27 16:58:23,465: INFO: model]: model is saved at model\and.model:
+[2022-02-27 16:58:23,465: INFO: all_utils]:  preparing the data for training :
+[2022-02-27 16:58:23,465: INFO: all_utils]: creating the base plot:
+[2022-02-27 16:58:23,605: INFO: all_utils]: ploting the decision regions :
+[2022-02-27 16:58:23,793: INFO: all_utils]: saving the plot at plots\and.png :
+[2022-02-27 16:58:23,793: INFO: and]: <<<<< done training for AND  gate <<<<<
+
+:
